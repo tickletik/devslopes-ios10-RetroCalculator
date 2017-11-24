@@ -14,6 +14,8 @@
 		E3C8C6AB1EBFE31B008E8A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C8C6A91EBFE31B008E8A70 /* LaunchScreen.storyboard */; };
 		E3C8C6B61EBFE31B008E8A70 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C8C6B51EBFE31B008E8A70 /* RetroCalculatorTests.swift */; };
 		E3C8C6C11EBFE31B008E8A70 /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C8C6C01EBFE31B008E8A70 /* RetroCalculatorUITests.swift */; };
+		E3C8C6CF1EC0697A008E8A70 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3C8C6CE1EC0697A008E8A70 /* Minecraft.ttf */; };
+		E3C8C6D11EC06B24008E8A70 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = E3C8C6D01EC06B24008E8A70 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E3C8C6BC1EBFE31B008E8A70 /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C8C6C01EBFE31B008E8A70 /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		E3C8C6C21EBFE31B008E8A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C8C6CE1EC0697A008E8A70 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		E3C8C6D01EC06B24008E8A70 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				E3C8C6B41EBFE31B008E8A70 /* RetroCalculatorTests */,
 				E3C8C6BF1EBFE31B008E8A70 /* RetroCalculatorUITests */,
 				E3C8C69E1EBFE31B008E8A70 /* Products */,
+				E3C8C6CE1EC0697A008E8A70 /* Minecraft.ttf */,
+				E3C8C6D01EC06B24008E8A70 /* btn.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C8C6D11EC06B24008E8A70 /* btn.wav in Resources */,
 				E3C8C6AB1EBFE31B008E8A70 /* LaunchScreen.storyboard in Resources */,
 				E3C8C6A81EBFE31B008E8A70 /* Assets.xcassets in Resources */,
+				E3C8C6CF1EC0697A008E8A70 /* Minecraft.ttf in Resources */,
 				E3C8C6A61EBFE31B008E8A70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,7 +421,7 @@
 		E3C8C6C61EBFE31B008E8A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roncode.RetroCalculator;
@@ -425,7 +433,7 @@
 		E3C8C6C71EBFE31B008E8A70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roncode.RetroCalculator;
@@ -507,6 +515,7 @@
 				E3C8C6C71EBFE31B008E8A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3C8C6C81EBFE31B008E8A70 /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				E3C8C6CA1EBFE31B008E8A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3C8C6CB1EBFE31B008E8A70 /* Build configuration list for PBXNativeTarget "RetroCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				E3C8C6CD1EBFE31B008E8A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
